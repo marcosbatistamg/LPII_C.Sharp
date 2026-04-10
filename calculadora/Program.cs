@@ -9,7 +9,7 @@ app.MapGet("/", () => {
     return Results.Ok("API funcionando ...");
 });
 
-app.MapGet("/calcula/{opcao}/{valor1}/valor2", (int opcao, int valor1, int valor2) => {
+app.MapGet("/calcula/{opcao}/{valor1}/{valor2}", (int opcao, int valor1, int valor2) => {
 // Envio de informações 
  int resultado;
     switch(opcao){
